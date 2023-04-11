@@ -1,0 +1,183 @@
+.contact-text {
+    text-align: center;
+    padding: 80px 0 50px;
+}
+
+.contact-text h1 {
+    font-size: 64px;
+    color: #472f1e;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.contact-text p {
+    font-size: 18px;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.our-details {
+    padding: 40px 0 100px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards .small-cards {
+    width: 33.33%;
+}
+
+.cards .small-cards .fa-solid {
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+
+.cards .small-cards h3 {
+    font-size: 23px;
+    color: #472f1e;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.cards .small-cards p {
+    font-size: 18px;
+    color: #665244;
+    line-height: 1.5;
+}
+
+.cards .small-cards p span {
+    color: #472f1e;
+    font-weight: 600;
+}
+
+.box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-form {
+    padding: 20px 0 120px;
+    font-family: 'Inter', sans-serif;
+}
+
+.box .form-control {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A89C93;
+    color: #A89C93;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    color: #665244;
+    font-size: 14px;
+}
+
+.box form input {
+    height: 45px;
+    font-size: 16px;
+}
+
+.box form textarea {
+    font-family: 'Inter', sans-serif;
+}
+
+.box .submit {
+    background-color: #472f1e;
+    font-size: 14px;
+    color: #Fff;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 0 #472f1e;
+    transition: .5s;
+}
+
+.box .submit:hover {
+    box-shadow: 8px 10px 0 transparent;
+}
+
+@media(max-width:767px) {
+    .contact-text {
+        text-align: center;
+        padding: 60px 0 40px;
+    }
+
+    .contact-text h1 {
+        font-size: 44px;
+        padding-bottom: 10px;
+    }
+
+    .our-details {
+        padding: 20px 0 10px;
+    }
+
+    .cards .small-cards {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .contact-text p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .cards .small-cards .fa-solid {
+        font-size: 24px;
+    }
+
+    .cards .small-cards h3 {
+        font-size: 20px;
+    }
+
+    .cards .small-cards p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+
+@media(max-width:480px) {
+    .contact-text {
+        text-align: center;
+        padding: 20px 0 20px;
+    }
+
+    .contact-text h1 {
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+
+    .contact-text p {
+        font-size: 12px;
+    }
+
+    .our-details {
+        padding: 10px 0 10px;
+    }
+
+    .cards .small-cards .fa-solid {
+        font-size: 18px;
+    }
+
+    .cards .small-cards h3 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .cards .small-cards p {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+
+    .cards .small-cards {
+        padding-bottom: 20px;
+    }
+
+    .contact-form {
+        padding: 20px 0 40px;
+    }
+}
